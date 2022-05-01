@@ -1,5 +1,5 @@
 <?php
-
+namespace Magenfa\Auth;
 use http\Client\Request;
 
 class Auth{
