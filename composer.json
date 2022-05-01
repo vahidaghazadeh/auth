@@ -1,0 +1,17 @@
+{
+    "name": "magenfa/auth",
+    "autoload": {
+        "psr-4": {
+            "Magenfa\\Auth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vahid aghazade",
+            "email": "v.opsource@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*"
+    }
+}
