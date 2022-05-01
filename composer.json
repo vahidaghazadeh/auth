@@ -1,5 +1,8 @@
 {
     "name": "magenfa/auth",
+    "description": "magenfa framework library",
+    "license": "proprietary",
+    "type": "library",
     "autoload": {
         "psr-4": {
             "Magenfa\\Auth\\": "src/"
@@ -12,6 +15,8 @@
         }
     ],
     "require": {
+        "php": ">= 8.*",
         "ext-json": "*"
-    }
+    },
+    "minimum-stability": "dev"
 }
