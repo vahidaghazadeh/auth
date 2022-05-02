@@ -1,7 +1,7 @@
 <?php
 namespace Magenfa\Core;
 class Response{
-    public function setStatusCode($code)
+    public function setStatusCode(int $code)
     {
         http_response_code($code);
     }

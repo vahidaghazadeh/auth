@@ -5,7 +5,6 @@
  */
 
 namespace Magenfa\Core;
-use Magenfa\Core\Router;
 
 class App{
 

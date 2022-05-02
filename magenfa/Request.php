@@ -19,12 +19,12 @@ class Request
         return strtolower($_SERVER['REQUEST_METHOD']);
     }
 
-    public function isGet()
+    public function getMethod()
     {
         return $this->method() === "get";
     }
 
-    public function isPost()
+    public function postMethod()
     {
         return $this->method() === 'post';
     }

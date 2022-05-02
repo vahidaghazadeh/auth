@@ -62,8 +62,10 @@ class Router
     {
         $layoutContent = $this->renderContentView();
         $viewContent = $this->renderEmptyView($view, $params);
+
         return str_replace('{{content}}', $viewContent, $layoutContent);
     }
+
 
     private function renderContent($content)
     {
@@ -85,9 +87,9 @@ class Router
     protected function renderEmptyView($view, $params)
     {
         if (!is_null($params))
-        foreach ($params as $key => $value){
-            $$key = $value;
-        }
+            foreach ($params as $key => $value){
+                $$key = $value;
+            }
 
         ob_start();
         include_once App::$CURRENT_PATH . "/core/Views/$view.php";
